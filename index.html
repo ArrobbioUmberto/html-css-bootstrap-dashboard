@@ -31,14 +31,12 @@
                       <li class="nav-item">
                          <a class="nav-link px-2" href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
                       </li>
-                      <li class="nav-item dropstart">
+                      <li class="nav-item dropdown">
                           <a class="nav-link px-2" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><i class="fa-solid fa-bell"></i></a>
-                          <ul class="dropdown-menu">
-                             <li><a class="dropdown-item" href="#">Action</a></li>
-                             <li><a class="dropdown-item" href="#">Another action</a></li>
-                             <li><a class="dropdown-item" href="#">Something else here</a></li>
-                             <li><hr class="dropdown-divider"></li>
-                             <li><a class="dropdown-item" href="#">Separated link</a></li>
+                          <ul class="dropdown-menu dropdown-menu-end">
+                             <li><a class="dropdown-item" href="#">Profilo</a></li>
+                             <li><a class="dropdown-item" href="#">Fatturazione</a></li>
+                             <li><a class="dropdown-item" href="#">Logout</a></li>
                         </ul>
                       </li>
                   </ul>
@@ -47,8 +45,33 @@
             </div>
           </nav>
     </header>
-    <main class="d-flex debug">
-        <aside class="debug"></aside>
+    <main class="d-flex">
+        <aside class="d-flex flex-column py-4 px-3">
+            <div class="container g-0">
+                <div class="d-flex flex-column flex-nowrap">
+                    <a href="#" class="d-flex flex-row justify-content-start align-items-center text-decoration-none">
+                        <i class="fa-solid fa-house"></i>
+                        <h2 class="action--text m-2">Home</h2>
+                    </a>
+                    <a href="#" class="d-flex flex-row justify-content-start align-items-center text-decoration-none">
+                        <i class="fa-solid fa-chart-simple"></i>
+                        <h2 class="action--text m-2">Stats</h2>
+                    </a>
+                    <a href="#" class="d-flex flex-row justify-content-start align-items-center text-decoration-none">
+                        <i class="fa-solid fa-signal"></i>
+                        <h2 class="action--text m-2">Signal</h2>
+                    </a>
+                </div>
+            </div>
+            <div class="container g-0 mt-auto">
+                <div class="d-flex flex-column flex-nowrap">
+                    <a href="#" class="d-flex flex-row justify-content-start align-items-center text-decoration-none">
+                        <i class="fa-solid fa-gear"></i>
+                        <h2 class="action--text m-2">Admin</h2>
+                    </a>
+                </div>
+            </div>
+        </aside>
         <div class="content debug">
             <div class="container debug">
                 <div class="row">
