@@ -35,11 +35,13 @@ aside{
 }
 
 /* HEADER SECTION  */
-
 header i{
     font-size: 15px;
     color: #5b5858;
 }
+.fontAwesome {
+    font-family: 'Helvetica', FontAwesome, sans-serif;
+  }
 .mc-navbar-height{
     height: 100%;
 }
