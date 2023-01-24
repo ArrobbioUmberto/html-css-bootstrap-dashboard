@@ -54,3 +54,28 @@ header i{
 
 /* ASIDE SECTION  */
 
+aside{
+    background-color: #051e34;
+}
+aside a{
+    background-color: #051e34 !important;
+    padding: 0 !important;
+}
+aside i{
+    padding: 0 5px;
+    color: white;
+    font-size: 15px;
+}
+aside .list-group-item-action{
+    background-color: #5b5858;
+}
+.action--text{
+    color: white;
+    font-weight: 400;
+    font-size: 1rem;
+    padding-left: 5px;
+}
+aside a:hover{
+    background-color: rgba(237,231,225, 0.5) !important;
+}
+
