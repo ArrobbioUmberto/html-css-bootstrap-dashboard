@@ -33,3 +33,19 @@ aside{
     content: 'colonna';
     padding: 100px;
 }
+
+/* HEADER SECTION  */
+
+header i{
+    font-size: 15px;
+    color: #5b5858;
+}
+.mc-navbar-height{
+    height: 100%;
+}
+.mc-icon-width{
+    width: fit-content !important;
+}
+.fa-bell{
+    color: #ff8000;
+}
