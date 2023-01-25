@@ -103,7 +103,7 @@ aside a:hover{
 
 .mc-action{
     background-color: #1b72e8;
-    height: 100px;
+    height: 130px;
 }
 
 .content .mc-color-pills{
@@ -146,9 +146,9 @@ aside a:hover{
 
  /* LOWER SECTION CONTENT  */
 .mc-table-card{
-    height: calc(100% - 100px);
+    height: calc(100% - 130px);
 }
-.mc-table-card img{
+.mc-table-card .logo-class{
     width: 20px;
     height: 20px;
 }
@@ -161,6 +161,12 @@ aside a:hover{
 .card .statistica{
     width: 100%;
     height: 250px;
+}
+
+@media only screen and (max-width:576px){
+    .mc-action{
+        height: 260px;
+    }
 }
 
 
