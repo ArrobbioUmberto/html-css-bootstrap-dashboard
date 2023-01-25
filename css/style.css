@@ -97,12 +97,18 @@ aside a:hover{
 
 /* CONTENT SECTION  */
 
+
+/* UPPER CONTENT SECTION  */
+
 .mc-action{
     background-color: #1b72e8;
 }
 
 .content .mc-color-pills{
     background-color: #165bba !important;
+}
+.content .mc-color-pills:last-child{
+    display: none;
 }
 .mc-font-size{
     font-size: 12px;
@@ -115,4 +121,35 @@ aside a:hover{
     .content .offcanvas{
         width: 100% !important;
     }
+    .content .mc-color-pills:last-child{
+        display: inline-block;
+    }
+    .content .mc-color-pills{
+        display: none;
+    }
+    .content .btn-small {
+        display: inline-block;
+    }
 }
+ @media only screen and (max-width:576px){
+    .content .row:first-child{
+        flex-direction: column;
+        gap: 13px;
+    }
+    .content .col-6:last-child{
+        order: -1;
+    }
+ }
+
+
+ /* LOWER SECTION CONTENT  */
+
+ .mc-table-card img{
+    width: 20px;
+    height: 20px;
+ }
+
+
+
+
+
