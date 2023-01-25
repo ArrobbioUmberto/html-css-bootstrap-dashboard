@@ -75,7 +75,7 @@
         </aside>
         <div class="content">
             <div class="container-fluid mc-action">
-                <div class="row justi py-3">
+                <div class="row py-3">
                     <div class="col-6">
                         <div class="row flex-column">
                             <div class="col d-flex align-items-center">
@@ -210,9 +210,9 @@
                     </div>
                 </div>
             </div>
-            <div class="container py-3 mc-table-card ">
+            <div class="container-fluid py-3 mc-table-card ">
                 <div class="row flex-nowrap flex-column flex-md-row">
-                    <div class="col-12 col-md-8">
+                    <div class="col-12 col-md-9">
                         <div class="row gy-4">
                             <div class="col-12">
                                 <div class="card">
@@ -220,135 +220,139 @@
                                         <h5 class="card-title">Prossime classi</h5>
                                     </div>
                                     <div class="card-body">
-                                        <ul class="list-group list-group-flush">
-                                            <li class="list-group-item d-flex flex-row p-0 align-items-center">
-                                                <p class="col-6 me-auto px-2 mt-3">Nome</p>
-                                                <p class="col px-2 mt-3">Data inizio</p>
-                                                <p class="col px-2 mt-3 text-center">ROI</p>
-                                                <p class="col px-2 mt-3 text-center">Stato</p>
-                                                <p class="col px-2 mt-3 text-center">Azioni</p>
-                                            </li>
-                                            <li class="list-group-item d-flex flex-row p-0 align-items-center">
-                                                <div class=" col-6 me-auto d-flex align-items-center">
+                                        <table class="table align-middle">
+                                            <thead>
+                                              <tr>
+                                                <th class="fw-normal me-auto">Nome</th>
+                                                <th class="fw-normal">Data inizio</th>
+                                                <th class="fw-normal">ROI</th>
+                                                <th class="fw-normal">Stato</th>
+                                                <th class="fw-normal">Azioni</th>
+                                              </tr>
+                                            </thead>
+                                            <tbody>
+                                              <tr>
+                                                <td>
                                                     <img src="./img/class-avatar.jpg" alt="">
-                                                    <p class="px-2 mt-3">Classe 75</p>
-                                                </div>
-                                                <p class="col mt-3 text-center">15 Feb 2021</p>
-                                                <p class="col mt-3 text-center">20%</p>
-                                                <div class="col text-center">
-                                                    <span class="badge rounded-pill  text-bg-success">Done</span>
-                                                </div>
-                                                <div class="col d-flex align-items-center justify-content-around text-center">
+                                                    <span>Classe 75</span>
+                                                </td>
+                                                <td>15 Feb 2021</td>
+                                                <td>20%</td>
+                                                <td>
+                                                    <span class="badge text-bg-success">Done</span>
+                                                </td>
+                                                <td>
                                                     <button type="button" class="btn btn-outline-dark"><i class="fa-solid fa-pen"></i></button>
                                                     <button type="button" class="btn btn-outline-dark"><i class="fa-solid fa-trash"></i></button>
-                                                </div>
-                                            </li>
-                                            <li class="list-group-item d-flex flex-row p-0 align-items-center">
-                                                <div class=" col-6 me-auto d-flex align-items-center">
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <td>
                                                     <img src="./img/class-avatar.jpg" alt="">
-                                                    <p class="px-2 mt-3">Classe 75</p>
-                                                </div>
-                                                <p class="col mt-3 text-center">16 Feb 2021</p>
-                                                <p class="col mt-3 text-center">20%</p>
-                                                <div class="col text-center">
-                                                    <span class="badge rounded-pill  text-bg-success">Done</span>
-                                                </div>
-                                                <div class="col d-flex align-items-center justify-content-around text-center">
+                                                    <span>Classe 76</span>
+                                                </td>
+                                                <td>16 Feb 2021</td>
+                                                <td>20%</td>
+                                                <td>
+                                                    <span class="badge text-bg-success">Done</span>
+                                                </td>
+                                                <td>
                                                     <button type="button" class="btn btn-outline-dark"><i class="fa-solid fa-pen"></i></button>
                                                     <button type="button" class="btn btn-outline-dark"><i class="fa-solid fa-trash"></i></button>
-                                                </div>
-                                            </li>
-                                            <li class="list-group-item d-flex flex-row p-0 align-items-center">
-                                                <div class=" col-6 me-auto d-flex align-items-center">
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <td>
                                                     <img src="./img/class-avatar.jpg" alt="">
-                                                    <p class="px-2 mt-3">Classe 75</p>
-                                                </div>
-                                                <p class="col mt-3 text-center">17 Feb 2021</p>
-                                                <p class="col mt-3 text-center">20%</p>
-                                                <div class="col text-center">
-                                                    <span class="badge rounded-pill text-white text-bg-warning">Process</span>
-                                                </div>
-                                                <div class="col d-flex align-items-center justify-content-around text-center">
+                                                    <span>Classe 77</span>
+                                                </td>
+                                                <td>17 Feb 2021</td>
+                                                <td>20%</td>
+                                                <td>
+                                                    <span class="badge text-bg-warning text-white">Process</span>
+                                                </td>
+                                                <td>
                                                     <button type="button" class="btn btn-outline-dark"><i class="fa-solid fa-pen"></i></button>
                                                     <button type="button" class="btn btn-outline-dark"><i class="fa-solid fa-trash"></i></button>
-                                                </div>
-                                            </li>
-                                            <li class="list-group-item d-flex flex-row p-0 align-items-center">
-                                                <div class=" col-6 me-auto d-flex align-items-center">
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <td>
                                                     <img src="./img/class-avatar.jpg" alt="">
-                                                    <p class="px-2 mt-3">Classe 75</p>
-                                                </div>
-                                                <p class="col mt-3 text-center">18 Feb 2021</p>
-                                                <p class="col mt-3 text-center">20%</p>
-                                                <div class="col text-center">
-                                                    <span class="badge rounded-pill  text-bg-success">Done</span>
-                                                </div>
-                                                <div class="col d-flex align-items-center justify-content-around text-center">
+                                                    <span>Classe 78</span>
+                                                </td>
+                                                <td>18 Feb 2021</td>
+                                                <td>20%</td>
+                                                <td>
+                                                    <span class="badge text-bg-success">Done</span>
+                                                </td>
+                                                <td>
                                                     <button type="button" class="btn btn-outline-dark"><i class="fa-solid fa-pen"></i></button>
                                                     <button type="button" class="btn btn-outline-dark"><i class="fa-solid fa-trash"></i></button>
-                                                </div>
-                                            </li>
-                                            <li class="list-group-item d-flex flex-row p-0 align-items-center">
-                                                <div class=" col-6 me-auto d-flex align-items-center">
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <td>
                                                     <img src="./img/class-avatar.jpg" alt="">
-                                                    <p class="px-2 mt-3">Classe 75</p>
-                                                </div>
-                                                <p class="col mt-3 text-center">19 Feb 2021</p>
-                                                <p class="col mt-3 text-center">20%</p>
-                                                <div class="col text-center">
-                                                    <span class="badge rounded-pill text-bg-danger">Failed</span>
-                                                </div>
-                                                <div class="col d-flex align-items-center justify-content-around text-center">
+                                                    <span>Classe 79</span>
+                                                </td>
+                                                <td>19 Feb 2021</td>
+                                                <td>20%</td>
+                                                <td>
+                                                    <span class="badge text-bg-danger">Failed</span>
+                                                </td>
+                                                <td>
                                                     <button type="button" class="btn btn-outline-dark"><i class="fa-solid fa-pen"></i></button>
                                                     <button type="button" class="btn btn-outline-dark"><i class="fa-solid fa-trash"></i></button>
-                                                </div>
-                                            </li>
-                                            <li class="list-group-item d-flex flex-row p-0 align-items-center">
-                                                <div class=" col-6 me-auto d-flex align-items-center">
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <td>
                                                     <img src="./img/class-avatar.jpg" alt="">
-                                                    <p class="px-2 mt-3">Classe 75</p>
-                                                </div>
-                                                <p class="col mt-3 text-center">20 Feb 2021</p>
-                                                <p class="col mt-3 text-center">20%</p>
-                                                <div class="col text-center">
-                                                    <span class="badge rounded-pill  text-bg-success">Done</span>
-                                                </div>
-                                                <div class="col d-flex align-items-center justify-content-around text-center">
+                                                    <span>Classe 80</span>
+                                                </td>
+                                                <td>20 Feb 2021</td>
+                                                <td>20%</td>
+                                                <td>
+                                                    <span class="badge text-bg-success">Done</span>
+                                                </td>
+                                                <td>
                                                     <button type="button" class="btn btn-outline-dark"><i class="fa-solid fa-pen"></i></button>
                                                     <button type="button" class="btn btn-outline-dark"><i class="fa-solid fa-trash"></i></button>
-                                                </div>
-                                            </li>
-                                            <li class="list-group-item d-flex flex-row p-0 align-items-center">
-                                                <div class=" col-6 me-auto d-flex align-items-center">
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <td>
                                                     <img src="./img/class-avatar.jpg" alt="">
-                                                    <p class="px-2 mt-3">Classe 75</p>
-                                                </div>
-                                                <p class="col mt-3 text-center">21 Feb 2021</p>
-                                                <p class="col mt-3 text-center">20%</p>
-                                                <div class="col text-center">
-                                                    <span class="badge rounded-pill text-bg-danger">Failed</span>
-                                                </div>
-                                                <div class="col d-flex align-items-center justify-content-around text-center">
+                                                    <span>Classe 81</span>
+                                                </td>
+                                                <td>21 Feb 2021</td>
+                                                <td>20%</td>
+                                                <td>
+                                                    <span class="badge text-bg-danger">Failed</span>
+                                                </td>
+                                                <td>
                                                     <button type="button" class="btn btn-outline-dark"><i class="fa-solid fa-pen"></i></button>
                                                     <button type="button" class="btn btn-outline-dark"><i class="fa-solid fa-trash"></i></button>
-                                                </div>
-                                            </li>
-                                            <li class="list-group-item d-flex flex-row p-0 align-items-center">
-                                                <div class=" col-6 me-auto d-flex align-items-center">
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <td>
                                                     <img src="./img/class-avatar.jpg" alt="">
-                                                    <p class="px-2 mt-3">Classe 75</p>
-                                                </div>
-                                                <p class="col mt-3 text-center">22 Feb 2021</p>
-                                                <p class="col mt-3 text-center">20%</p>
-                                                <div class="col text-center">
-                                                    <span class="badge rounded-pill  text-bg-success">Done</span>
-                                                </div>
-                                                <div class="col d-flex align-items-center justify-content-around text-center">
+                                                    <span>Classe 82</span>
+                                                </td>
+                                                <td>22 Feb 2021</td>
+                                                <td>20%</td>
+                                                <td>
+                                                    <span class="badge text-bg-success">Done</span>
+                                                </td>
+                                                <td>
                                                     <button type="button" class="btn btn-outline-dark"><i class="fa-solid fa-pen"></i></button>
                                                     <button type="button" class="btn btn-outline-dark"><i class="fa-solid fa-trash"></i></button>
-                                                </div>
-                                            </li>
-                                          </ul>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
                                     </div>
                                   </div>
                             </div>
@@ -358,17 +362,44 @@
                                         <h5 class="card-title">F.A.Q.</h5>
                                     </div>
                                     <div class="card-body">
-                                      <h5 class="card-title">Card title</h5>
-                                      <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                      <a href="#" class="card-link">Card link</a>
-                                      <a href="#" class="card-link">Another link</a>
+                                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                                            <div class="accordion-item">
+                                              <h2 class="accordion-header" id="flush-headingOne">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                                  Come aggiungere un nuovo studente ?
+                                                </button>
+                                              </h2>
+                                              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                                              </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                              <h2 class="accordion-header" id="flush-headingTwo">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                                  Come posso accedere alle informazioni del mio account ?
+                                                </button>
+                                              </h2>
+                                              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                                              </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                              <h2 class="accordion-header" id="flush-headingThree">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                                  Posso usare questa dashboard da mobile ?
+                                                </button>
+                                              </h2>
+                                              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                                              </div>
+                                            </div>
+                                          </div>
                                     </div>
                                   </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-4 ">
+                    <div class="col-12 col-md-3 ">
                         <div class="row gy-4">
                             <div class="col-12">
                                 <div class="card">
@@ -376,22 +407,69 @@
                                         <h5 class="card-title">To do</h5>
                                     </div>
                                     <div class="card-body">
-                                      <h5 class="card-title">Card title</h5>
-                                      <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                      <a href="#" class="card-link">Card link</a>
-                                      <a href="#" class="card-link">Another link</a>
+                                        <ul class="list-group">
+                                            <li class="list-group-item">
+                                                <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                  Kickoff nuove classi
+                                                </label>
+                                              </div></li>
+                                            <li class="list-group-item">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                    <label class="form-check-label" for="flexCheckDefault">
+                                                      Lezioni su Bootstrap 5 in classe #75
+                                                    </label>
+                                                  </div>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                    <label class="form-check-label" for="flexCheckDefault">
+                                                      Controlla username github studenti 
+                                                    </label>
+                                                  </div>
+                                            </li>
+                                          </ul>
                                     </div>
                                   </div>
                             </div>
                             <div class="col-12">
                                 <div class="card">
                                     <div class="card-body">
-                                      <h5 class="card-title">Card title</h5>
-                                      <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                      <a href="#" class="card-link">Card link</a>
-                                      <a href="#" class="card-link">Another link</a>
+                                        <div class="col">
+                                            <img class="statistica" src="./img/stats.jpeg" alt="">
+                                        </div>
+                                        <table class="table">
+                                            <thead>
+                                              <tr>
+                                                <th scope="col">#</th>
+                                                <th scope="col">First</th>
+                                                <th scope="col">Last</th>
+                                                <th scope="col">Handle</th>
+                                              </tr>
+                                            </thead>
+                                            <tbody>
+                                              <tr>
+                                                <th scope="row">1</th>
+                                                <td>Mark</td>
+                                                <td>Otto</td>
+                                                <td>@mdo</td>
+                                              </tr>
+                                              <tr>
+                                                <th scope="row">2</th>
+                                                <td>Jacob</td>
+                                                <td>Thornton</td>
+                                                <td>@fat</td>
+                                              </tr>
+                                              <tr>
+                                                <th scope="row">3</th>
+                                                <td colspan="2">Larry the Bird</td>
+                                                <td>@twitter</td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
                                     </div>
                                   </div>
                             </div>
