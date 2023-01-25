@@ -11,10 +11,11 @@
 </head>
 <body>
     <header>
-        <nav class="mc-navbar-height navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#"><img src="./img/logo.svg" alt=""></a>
-              <div class="container-fluid p-0">
+        <nav class="mc-navbar-height navbar navbar-expand-lg">
+            <div class="container-fluid flex-nowrap">
+              <a class="navbar-brand d-none d-md-inline-block" href="#"><img src="./img/logo.svg" alt="logo"></a>
+              <a class="navbar-brand d-inline-block d-md-none" href="#"><img class="mc-logo-small" src="./img/mobile-logo.png" alt="logo-small"></a>
+              <div class="container-fluid  p-0">
                 <form class="d-flex align-items-center" role="search">
                     <input type="text" class="form-control fontAwesome" name="emailAddress" placeholder="&#xf002;  Prova a cercare: Lezioni di Laravel" value="">
                 </form>
@@ -108,46 +109,99 @@
                                         <button type="button col-6" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                                     </div>
                                 </div>
-                                <div class="container-fluid py-3">
-                                    <div class="input-group">
-                                        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
-                                        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                                <div class="container-fluid">
+                                    <div class="row input-group gx-3">
+                                        <div class="col">
+                                            <label for="exampleFormControlInput1" class="form-label">Nome</label>
+                                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+                                        </div>
+                                        <div class="col">
+                                            <label for="exampleFormControlInput1" class="form-label">Cognome</label>
+                                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="container-fluid py-3">
-                                    <div class="input-group mb-3">
-                                        <span class="input-group-text" id="basic-addon1">@</span>
-                                        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                                <div class="container-fluid">
+                                    <div class="row input-group gx-3">
+                                        <div class="col">
+                                            <label for="exampleFormControlInput1" class="form-label">Email</label>
+                                            <div class="input-group mb-3">
+                                                <span class="input-group-text" id="basic-addon1">@</span>
+                                                <input type="email" class="form-control" placeholder="" aria-label="Username" aria-describedby="basic-addon1">
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <label for="exampleFormControlInput1" class="form-label">Password</label>
+                                            <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="">
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="container-fluid py-3">
-                                    <div class="input-group mb-3">
-                                        <span class="input-group-text" id="basic-addon1">@</span>
-                                        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                                <div class="container-fluid">
+                                    <div class="row input-group gx-3">
+                                        <div class="col">
+                                            <label for="exampleFormControlInput1" class="form-label">Indirizzo email</label>
+                                            <div class="input-group mb-3">
+                                                <span class="input-group-text" id="basic-addon1">@</span>
+                                                <input type="email" class="form-control" placeholder="" aria-label="Username" aria-describedby="basic-addon1">
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <label for="exampleFormControlInput1" class="form-label">Password</label>
+                                            <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="">
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="container-fluid py-3">
+                                <div class="container-fluid">
+                                    <label for="exampleFormControlInput1" class="form-label">Indirizzo</label>
                                     <div class="input-group mb-3">
-                                        <span class="input-group-text" id="basic-addon1">@</span>
-                                        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                                        <input type="text" class="form-control" placeholder="" aria-label="Username" aria-describedby="basic-addon1">
                                     </div>
                                 </div>
-                                <div class="container-fluid py-3">
-                                    <div class="input-group mb-3">
-                                        <span class="input-group-text" id="basic-addon1">@</span>
-                                        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                                <div class="container-fluid">
+                                    <div class="row input-group gx-3">
+                                        <div class="col-6">
+                                            <label for="exampleFormControlInput1" class="form-label">Città</label>
+                                            <input type="text" class="form-control" placeholder="" aria-label="Username" aria-describedby="basic-addon1"> 
+                                        </div>
+                                        <div class="col-4">
+                                            <label class="form-label" for="inputGroupSelect01">Stato</label>
+                                            <div class="input-group mb-3">
+                                                <select class="form-select" id="inputGroupSelect01">
+                                                  <option selected>Scegli...</option>
+                                                  <option value="1">ITALIA</option>
+                                                  <option value="2">USA</option>
+                                                  <option value="3">CANADA</option>
+                                                </select>
+                                              </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <label for="exampleFormControlInput1" class="form-label">CAP</label>
+                                            <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="">
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="container-fluid py-3">
+                                <div class="container-fluid">
                                     <div class="input-group mb-3">
-                                        <span class="input-group-text" id="basic-addon1">@</span>
-                                        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                                        <label class="form-label" for="inputGroupFile02">Foto</label>
+                                        <div class="input-group mb-3">
+                                            <input type="file" class="form-control" id="inputGroupFile02">
+                                          </div>
                                     </div>
                                 </div>
-                                <div class="container-fluid py-3">
+                                <div class="container-fluid">
                                     <div class="input-group mb-3">
-                                        <span class="input-group-text" id="basic-addon1">@</span>
-                                        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                                        <div class="col-12">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                  Seleziona per proseguire
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 py-2">
+                                            <button type="button" class="btn btn-primary">Salva</button>
+                                            <button type="button" class="btn btn-warning">Svuota</button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
