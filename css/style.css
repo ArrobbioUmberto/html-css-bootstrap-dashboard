@@ -46,6 +46,14 @@ header i{
 .fa-bell{
     color: #ff8000;
 }
+.mc-logo-small{
+    width: 50px;
+}
+ @media only screen and (max-width: 992px){
+    header .nav-item:not(:last-child){
+        display: none;
+    }
+ }
 
 /* ASIDE SECTION  */
 
@@ -72,6 +80,19 @@ aside .list-group-item-action{
 }
 aside a:hover{
     background-color: rgba(237,231,225, 0.5) !important;
+}
+
+@media only screen and (max-width:768px){
+    aside h2{
+        display: none;
+    }
+    .fa-house, 
+    .fa-chart-simple, 
+    .fa-signal,
+    .fa-gear{
+        font-size: 25px;
+        padding: 5px 5px;
+    }
 }
 
 /* CONTENT SECTION  */
