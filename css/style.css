@@ -96,12 +96,14 @@ aside a:hover{
 }
 
 /* CONTENT SECTION  */
-
-
+.content{
+    height:auto
+}
 /* UPPER CONTENT SECTION  */
 
 .mc-action{
     background-color: #1b72e8;
+    height: 100px;
 }
 
 .content .mc-color-pills{
@@ -143,11 +145,24 @@ aside a:hover{
 
 
  /* LOWER SECTION CONTENT  */
-
- .mc-table-card img{
+.mc-table-card{
+    height: calc(100% - 100px);
+}
+.mc-table-card img{
     width: 20px;
     height: 20px;
- }
+}
+.mc-table-card p{
+    font-size: 15px;
+}
+
+
+
+.card .statistica{
+    width: 100%;
+    height: 250px;
+}
+
 
 
 
