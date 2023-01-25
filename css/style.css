@@ -29,11 +29,6 @@ aside{
     }
 }
 
-[class^="col-"]{
-    content: 'colonna';
-    padding: 100px;
-}
-
 /* HEADER SECTION  */
 header i{
     font-size: 15px;
@@ -79,3 +74,24 @@ aside a:hover{
     background-color: rgba(237,231,225, 0.5) !important;
 }
 
+/* CONTENT SECTION  */
+
+.mc-action{
+    background-color: #1b72e8;
+}
+
+.content .mc-color-pills{
+    background-color: #165bba !important;
+}
+.mc-font-size{
+    font-size: 12px;
+}
+.content .offcanvas{
+    width: 50% !important;
+}
+
+@media only screen and (max-width:768px){
+    .content .offcanvas{
+        width: 100% !important;
+    }
+}
