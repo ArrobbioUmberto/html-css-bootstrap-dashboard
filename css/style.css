@@ -118,11 +118,13 @@ aside a:hover{
 .content .offcanvas{
     width: 50% !important;
 }
-
-@media only screen and (max-width:768px){
+@media only screen and (max-width:992px){
     .content .offcanvas{
         width: 100% !important;
     }
+}
+@media only screen and (max-width:768px){
+    
     .content .mc-color-pills:last-child{
         display: inline-block;
     }
