@@ -98,15 +98,15 @@
                     </div>
                     <div class="col-6 col-sm-3 d-flex flex-row justify-content-sm-center align-items-center mb-4">
                         <h3 class="text-white mc-font-size pe-3 mb-0"> Nuovo studente</h3>
-                        <button class="btn btn-outline-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-plus"></i></button>
+                        <button class="btn btn-outline-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"><i class="fa-solid fa-plus"></i></button>
                         
                         <!-- OFFCANVAS SECTION  -->
 
-                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-                            <div class="offcanvas-header d-flex flex-column gy-3">
-                                <div class="container-fluid py-3">
-                                    <div class="row flex-row justify-content-between align-items-center">
-                                        <h5 class="offcanvas-title col-6" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
+                        <div class="offcanvas offcanvas-end" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                            <div class="offcanvas-header d-flex flex-column gy-3 overflow-auto">
+                                <div class="container-fluid py-3" >
+                                    <div class="row flex-row justify-content-between align-items-center" >
+                                        <h5 class="offcanvas-title col-6" id="offcanvasScrollingLabel" >Inserisci un nuovo studente</h5>
                                         <button type="button col-6" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                                     </div>
                                 </div>
@@ -220,7 +220,7 @@
                                         <h5 class="card-title">Prossime classi</h5>
                                     </div>
                                     <div class="card-body">
-                                        <table class="table align-middle">
+                                        <table class="table  table-hover align-middle">
                                             <thead>
                                               <tr>
                                                 <th class="fw-normal me-auto">Nome</th>
@@ -438,7 +438,7 @@
                             <div class="col-12">
                                 <div class="card">
                                     <img src="./img/stats.jpeg" class="card-img-top" alt="...">
-                                    <div class="card-header">
+                                    <div class="card-header bg-white">
                                         <h5 class="card-title">Utenti attivi</h5>
                                         <p>Lista degli utenti attivi in piattaforma nell'ultimo mese</p>
                                     </div>
